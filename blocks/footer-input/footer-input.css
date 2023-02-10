@@ -1,0 +1,16 @@
+.footer-input{
+    height: 36px;
+    background-color: #292929;
+    /* border-radius: 0; */
+    border: none
+}
+
+.footer-input::placeholder{
+    padding: 9px 6px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}

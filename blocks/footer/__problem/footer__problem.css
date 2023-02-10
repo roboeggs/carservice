@@ -1,0 +1,18 @@
+.footer__problem{
+    background-color: #292929;
+    border: none;
+    height: 108px;
+    resize: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer__problem::placeholder{
+    padding: 9px 6px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}

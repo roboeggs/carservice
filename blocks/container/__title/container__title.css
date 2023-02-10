@@ -1,0 +1,10 @@
+.container__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    max-width: 150px;
+    margin: 7px 0;
+}

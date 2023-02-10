@@ -1,0 +1,10 @@
+.map__iframe{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1280px){
+    .map__iframe{
+        height: 354px;
+    }
+}

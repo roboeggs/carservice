@@ -1,0 +1,15 @@
+.footer__but{
+    width: 171px;
+    height: 43px;
+    border: none;
+    border-radius: 9px;
+    background-color: #B50E32;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 12px;
+}

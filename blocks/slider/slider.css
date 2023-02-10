@@ -1,0 +1,25 @@
+.slider{
+    margin: 0 auto 61px;
+    background-image: url(../../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration-line: none;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    width: 1180px;
+    height: 616px;
+}
+
+@media screen and (max-width:1280px){
+    .slider{
+        width: 924px;
+        height: 483px;
+    }
+}

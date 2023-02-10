@@ -1,0 +1,6 @@
+.container__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 203px; */
+}

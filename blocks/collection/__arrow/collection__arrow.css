@@ -1,0 +1,10 @@
+.collection__arrow{
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px
+}
+

@@ -1,0 +1,14 @@
+.cards__item{
+    overflow: hidden;
+    background-color: #4B4B4B;
+    border-radius: 6px;
+    width: 280px;
+    height: 417px; 
+}
+
+@media screen and (max-width:1235px){
+    .cards__item{
+        width: 216px;
+        height: 362px;
+    }
+}

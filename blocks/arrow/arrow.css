@@ -1,0 +1,10 @@
+.arrow{
+    opacity: .36;
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.arrow:hover {
+    opacity: 1;
+}

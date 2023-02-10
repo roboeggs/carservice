@@ -1,0 +1,4 @@
+.lead__point{
+    display: flex;
+    flex-direction: row;
+}

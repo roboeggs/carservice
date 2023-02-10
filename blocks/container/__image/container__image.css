@@ -1,0 +1,10 @@
+.container__image{
+    width: 73px;
+    height: 73px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container__image:hover{
+    transform: scale(1.1, 1.1);
+}

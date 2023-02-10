@@ -1,0 +1,12 @@
+.footer__form{
+    display: grid;
+    grid-template-columns: 280px 180px 280px;
+    grid-template-rows: 36px minmax(min-content, max-content) 18px 1fr;
+    gap: 20px 18px;
+}
+
+@media screen and (max-width:1200px){
+    .footer__form{
+        grid-template-columns: 215px 137px 216px;
+    }
+}

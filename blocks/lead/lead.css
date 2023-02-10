@@ -1,0 +1,15 @@
+.lead{
+    margin: 47px 0;
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: 340px 1fr;
+    gap: 18px 160px;
+    width: calc(1280px - 100px);
+}
+
+@media screen and (max-width:1280px){
+    .lead{
+        gap: 18px 52px;
+        width: calc(1024px - 100px);
+    }
+}

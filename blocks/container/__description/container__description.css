@@ -1,0 +1,9 @@
+.container__description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    max-width: 193px;
+    margin: 0;
+}

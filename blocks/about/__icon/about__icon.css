@@ -1,0 +1,13 @@
+.about__icon{
+    /* width: 40px;
+    height: 40px; */
+    transition: fill 0.6s ease-in-out;
+}
+
+/* .about__icon path{
+    fill: #204ecf;
+} */
+
+.about__icon:hover path{
+    fill: #B50E32;
+}

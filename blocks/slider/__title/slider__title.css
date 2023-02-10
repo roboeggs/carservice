@@ -1,0 +1,9 @@
+.slider__title{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+    text-transform: uppercase;
+    margin: 0;
+}
