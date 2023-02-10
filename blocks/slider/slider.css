@@ -2,7 +2,7 @@
     margin: 0 auto 61px;
     background-image: url(../../images/slider.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -14,13 +14,13 @@
     z-index: 0;
     position: relative;
     width: 1180px;
-    height: 616px;
+    max-height: 616px;
 }
 
 @media screen and (max-width:1280px){
     .slider{
         width: 924px;
-        height: 483px;
+        min-height: 483px;
     }
 }
 
@@ -28,5 +28,22 @@
     .slider{
         width: 100%;
         /* height: 402px; */
+    }
+}
+
+@media screen and (max-width:768px){
+    .slider{
+        min-height: 402px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .slider{
+        min-height: 300px;  
+        overflow: hidden;
+        background-size: cover;
+        object-position: 50% 50%;
+        margin-bottom: 14px;
     }
 }

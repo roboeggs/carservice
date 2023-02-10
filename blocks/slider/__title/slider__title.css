@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
-    line-height: 115px;
+    /* line-height: 115px; */
     text-transform: uppercase;
     margin: 0;
 }
@@ -11,5 +11,11 @@
 @media screen and (max-width:924px){
     .slider__title{
         font-size: 64px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .slider__title{
+        font-size: 42px;
     }
 }

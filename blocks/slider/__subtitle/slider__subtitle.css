@@ -6,3 +6,10 @@
     line-height: 29px;
     margin: 21px 0 0;
 }
+
+@media screen and (max-width:670px){
+    .slider__subtitle{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+}

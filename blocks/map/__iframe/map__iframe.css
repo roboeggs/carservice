@@ -8,3 +8,21 @@
         height: 354px;
     }
 }
+
+@media screen and (max-width:1280px){
+    .map__iframe{
+        height: 354px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .map__iframe{
+        height: 266px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .map__iframe{
+        height: 238px;
+    }
+}

@@ -3,7 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
-    width: 416px;
+    column-gap: 76px;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width:630px){
+    .header__menu{
+        column-gap: 15px;
+    }
 }

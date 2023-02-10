@@ -13,3 +13,10 @@
         gap: 60px;
     }
 }
+
+@media screen and (max-width:740px){
+    .container__items{
+        flex-direction: column;
+        padding-bottom: 36px;
+    }
+}

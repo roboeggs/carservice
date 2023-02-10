@@ -17,3 +17,11 @@
         grid-template-rows: 36px 36px minmax(min-content, max-content) 18px 1fr;
     }
 }
+
+@media screen and (max-width:800px){
+    .footer__form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

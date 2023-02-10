@@ -1,7 +1,5 @@
 .footer__copyright{
-    position: absolute;
-    bottom: 16px;
-    margin: 0;
+    margin: 0 0 16px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;

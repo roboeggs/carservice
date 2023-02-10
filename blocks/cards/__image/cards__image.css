@@ -18,3 +18,9 @@
         height: 256px;
     }
 }
+
+@media screen and (max-width:555px){
+    .cards__image{
+        width: 100%;
+    }
+}

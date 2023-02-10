@@ -4,3 +4,9 @@
     font-weight: 700;
     font-size: 20px;
 }
+
+@media screen and (max-width:440px){
+    .header__link{
+        font-size: 14px;
+    }
+}

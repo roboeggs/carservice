@@ -1,21 +1,37 @@
 .lead{
-    margin: 47px 0;
+    margin: 47px auto;
     display: grid;
     align-items: flex-end;
+    justify-content: flex-start;
     grid-template-columns: 340px 1fr;
     gap: 18px 160px;
-    width: calc(1280px - 100px);
+    /* width: calc(1280px - 100px); */
 }
 
 @media screen and (max-width:1280px){
     .lead{
         gap: 18px 52px;
-        width: calc(1024px - 100px);
+        margin: 47px 50px;
     }
 }
 
-@media screen and (max-width:924px){
+@media screen and (max-width:990px){
     .lead{
-        width: 100%;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:630px){
+    .lead{
+        display: flex;
+        flex-direction: column;
+        margin: 47px 15px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .lead{
+        margin: 19px 0;
+        align-items: center;
     }
 }

@@ -4,5 +4,20 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 10px;
+    row-gap: 23px;
+}
+
+@media screen and (max-width:768px){
+    .cards{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:555px){
+    .cards{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        row-gap: 17px;
+    }
 }
