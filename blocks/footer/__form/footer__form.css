@@ -10,3 +10,10 @@
         grid-template-columns: 215px 137px 216px;
     }
 }
+
+@media screen and (max-width:1020px){
+    .footer__form{
+        grid-template-columns: 215px 141px;
+        grid-template-rows: 36px 36px minmax(min-content, max-content) 18px 1fr;
+    }
+}

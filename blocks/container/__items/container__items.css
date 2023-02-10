@@ -5,4 +5,11 @@
     gap: 160px;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:924px){
+    .container__items{
+        gap: 60px;
+    }
 }

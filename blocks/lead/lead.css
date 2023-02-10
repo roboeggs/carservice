@@ -13,3 +13,9 @@
         width: calc(1024px - 100px);
     }
 }
+
+@media screen and (max-width:924px){
+    .lead{
+        width: 100%;
+    }
+}

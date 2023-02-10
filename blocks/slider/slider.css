@@ -23,3 +23,10 @@
         height: 483px;
     }
 }
+
+@media screen and (max-width:925px){
+    .slider{
+        width: 100%;
+        /* height: 402px; */
+    }
+}

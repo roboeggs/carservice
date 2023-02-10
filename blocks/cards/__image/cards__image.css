@@ -11,3 +11,10 @@
         height: 281px;
     }
 }
+
+@media screen and (max-width:975px){
+    .cards__image{
+        width: 223px;
+        height: 256px;
+    }
+}

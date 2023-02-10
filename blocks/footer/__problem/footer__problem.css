@@ -16,3 +16,9 @@
     font-size: 15px;
     line-height: 18px;
 }
+
+@media screen and (max-width:1020px){
+    .footer__problem{
+        grid-column-end: 3;
+    }
+}
