@@ -1,21 +1,29 @@
 .cards__item{
+    margin-left: 23px;
     overflow: hidden;
     background-color: #4B4B4B;
     border-radius: 6px;
-    width: 280px;
-    height: 417px; 
+    min-width: 280px;
+    max-width: 280px;
+    height: 417px;
+}
+
+.cards__item:first-child{
+    margin-left: 0px;
 }
 
 @media screen and (max-width:1235px){
     .cards__item{
-        width: 216px;
+        /* width: 216px; */
+        min-width: 216px;
         height: 362px;
     }
 }
 
 @media screen and (max-width:975px){
     .cards__item{
-        width: 223px;
+        /* width: 223px; */
+        min-width: 223;
         height: 330px;
     }
 }
@@ -23,6 +31,7 @@
 @media screen and (max-width:555px){
     .cards__item{
         width: 100%;
+        min-width: 100%;
         /* margin: 0 15px; */
     }
 }

@@ -2,13 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 0.08em;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     color: #B50E32;

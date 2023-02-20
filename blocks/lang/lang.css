@@ -1,4 +1,6 @@
 .lang{
     display: flex;
     flex-direction: row;
+    /* right: 83px;
+    position: absolute; */
 }

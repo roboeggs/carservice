@@ -1,23 +1,33 @@
 .cards{
     margin: 0 50px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     row-gap: 23px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 
-@media screen and (max-width:768px){
+.cards::-webkit-scrollbar {
+    width: 0;
+
+}
+
+/* @media screen and (max-width:768px){
     .cards{
         justify-content: space-around;
+        flex-wrap: wrap;
     }
-}
+} */
 
-@media screen and (max-width:555px){
+/* @media screen and (max-width:555px){
     .cards{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         row-gap: 17px;
     }
-}
+} */
