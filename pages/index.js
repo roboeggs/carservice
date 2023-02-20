@@ -1,21 +1,21 @@
 // import Card from '../components/Card.js';
 const messageListRu = [{
-    image: './../images/cards/circli.jpg',
+    image: 'https://raw.githubusercontent.com/roboeggs/carservice/master/images/cards/circli.jpg',
     text: 'Шиномонтаж любой сложности',
     description: 'Колесо'
   },
   {
-    image: './../images/cards/engine.jpg',
+    image: 'https://raw.githubusercontent.com/roboeggs/carservice/master/images/cards/engine.jpg',
     text: 'Техническое обслуживание',
     description: 'Мотор под капотом'
   },
   {
-    image: './../images/cards/filter.jpg',
+    image: 'https://raw.githubusercontent.com/roboeggs/carservice/master/images/cards/filter.jpg',
     text: 'Замена всех жидкостей и фильтров',
     description: 'Фильтры и масла'
   },
   {
-    image: './../images/cards/chassis.jpg',
+    image: 'https://raw.githubusercontent.com/roboeggs/carservice/master/images/cards/chassis.jpg',
     text: 'Ремонт ходовой части',
     description: 'Вид колеса снизу'
   },
